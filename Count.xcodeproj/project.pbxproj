@@ -14,6 +14,7 @@
 		26417F93204BDC730061BD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26417F91204BDC730061BD87 /* LaunchScreen.storyboard */; };
 		26417F9E204BDC730061BD87 /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26417F9D204BDC730061BD87 /* CountTests.swift */; };
 		26417FA9204BDC730061BD87 /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26417FA8204BDC730061BD87 /* CountUITests.swift */; };
+		26417FB7204BDE730061BD87 /* mig.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 26417FB6204BDE730061BD87 /* mig.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		26417FA4204BDC730061BD87 /* CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26417FA8204BDC730061BD87 /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
 		26417FAA204BDC730061BD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26417FB6204BDE730061BD87 /* mig.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mig.jpeg; path = ../../mig.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		26417F87204BDC730061BD87 /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				26417FB6204BDE730061BD87 /* mig.jpeg */,
 				26417F88204BDC730061BD87 /* AppDelegate.swift */,
 				26417F8A204BDC730061BD87 /* ViewController.swift */,
 				26417F8C204BDC730061BD87 /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26417F93204BDC730061BD87 /* LaunchScreen.storyboard in Resources */,
+				26417FB7204BDE730061BD87 /* mig.jpeg in Resources */,
 				26417F90204BDC730061BD87 /* Assets.xcassets in Resources */,
 				26417F8E204BDC730061BD87 /* Main.storyboard in Resources */,
 			);
@@ -429,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Count;
+				PRODUCT_BUNDLE_IDENTIFIER = rio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,7 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Count;
+				PRODUCT_BUNDLE_IDENTIFIER = rio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
