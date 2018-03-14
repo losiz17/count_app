@@ -28,12 +28,21 @@ class ViewController: UIViewController {
     @IBAction func plus(){
         number = number + 1
         label.text = String(number)
-        //label.textColor = UIColor.blue
+        if number >= 10{
+            label.textColor = UIColor.red
+        } else {
+            label.textColor = UIColor.black
+        }
     }
     @IBAction func minus(){
         number = number - 1
         label.text = String(number)
-        //label.textColor = UIColor.red
+        
+        if number <= -10{
+            label.textColor = UIColor.blue
+        } else {
+            label.textColor = UIColor.black
+        }
     }
     @IBAction func kakeru(){
         number = number * 2
